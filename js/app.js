@@ -88,11 +88,23 @@ otherAgeBox[1].innerHTML = 68;
 
  //Final Boss Create your own profile into the page:
  //change image to match your profile
+
+var otherImg = document.getElementsByClassName("other");
+otherImg[2].src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Oc2XBQEN3fiJFpZLDuI5x-Lu34duAXHXgvL3h2okN16YJNYaqg";
+
  //div with class name of firstName
+
+firstNameBox[2].innerHTML = "Bugs Bunny";
+
  //div with class name of otherAge
+
+otherAgeBox[2].innerHTML = 79;
+
  //div with class name of status
+
+statusBox[2].innerHTML = "Single and ready to mingle"
+
  //div with class anem of Motto
 
-
-
-
+ var mottoBox = document.getElementsByClassName("motto");
+mottoBox[2].innerHTML = "What's up Doc?";
